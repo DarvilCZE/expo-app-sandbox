@@ -18,7 +18,7 @@ export default function HomeScreen() {
     >
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">
-          Welcome! {Constants.expoConfig?.extra?.test}
+          {Constants.expoConfig?.extra?.test}
         </ThemedText>
         <HelloWave />
       </ThemedView>
